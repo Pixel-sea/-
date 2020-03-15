@@ -1,4 +1,4 @@
-//var                          ort
+//                  var                          
 
 float Spin;
 Drop []drops=new Drop[100];
@@ -20,7 +20,7 @@ void draw() {
   noStroke();
   Spin+=0.003;
   //background(100);
- // Gravitational sphere                    ort
+ //                   Gravitational sphere                 
   ellipse(200, 300, 100, 100);
   fill(222, 228, 255, 180);
   ellipse(200+sin(Spin)*100, 300+cos(Spin)*50, 60, 60);
@@ -48,7 +48,7 @@ void drawCircles() {
   float len = a*pow(3, 0.5);  
   triangle(-len, a, 0, a-pow(3, 0.5)*len, len, a);
 
-//    Click mouse                   ort
+//                     Click mouse                 
  fill(1);             
  // stroke(150);             
   //strokeWeight(2);
