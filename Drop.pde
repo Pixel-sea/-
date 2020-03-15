@@ -12,7 +12,8 @@ class Drop {
 
   void show() {
     strokeWeight(1);
-    stroke(20);    // 雨滴颜色
-    line(x, y, x, y+200);         // 200长度
+    stroke(20);    
+    line(x, y, x, y+200);       
   }
 }
+ 
